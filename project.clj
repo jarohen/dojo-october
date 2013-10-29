@@ -10,12 +10,17 @@
                  [ring/ring-core "1.2.0"]
                  [compojure "1.1.5"]
                  [hiccup "1.0.4"]
+                 [clj-http "0.7.7"]
+
+                 [twitter-api "0.7.4"]
 
                  [prismatic/dommy "0.1.1"]
 
                  [org.clojure/core.async "0.1.242.0-44b1e3-alpha"]
                  [org.clojure/clojurescript "0.0-1913"]
-                 [org.clojure/tools.reader "0.7.8"]]
+                 [org.clojure/tools.reader "0.7.8"]
+
+                 [cljs-ajax "0.2.1"]]
 
   :plugins [[jarohen/lein-frodo "0.2.2"]
             [lein-cljsbuild "0.3.3"]
